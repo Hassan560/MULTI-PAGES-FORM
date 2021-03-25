@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="header">
+    <div id="head">
+      <table>
+        <tr>
+          <th bgcolor="lightgreen">Step 1: Account</th>
+          <th bgcolor="lightblue">Step 2: Personal Details</th>
+          <th>Step 3: Your Review</th>
+        </tr>
+      </table>
+    </div>
+    <form action="#" >
+      <fieldset>
+        <legend>Personal Details</legend>
+        <div class="req">* Required</div>
+        <br />
+        <label class="lab" for="firstname">First Name <span>*</span></label> <br />
+        <input class="inp"
+          type="text"
+          name="firstname"
+          placeholder="Enter First Name"
+          id="firstname"
+        />
+        <br />
+        <label class="lab" for="lastname">Last Name <span>*</span></label> <br />
+        <input class="inp"
+          type="text"
+          name="lastname"
+          placeholder="Enter Last Name"
+          id=""
+        />
+        <br />
+        <label class="lab" for="cnic">CNIC <span>*</span></label> <br />
+        <input class="inp" type="text" name="cnic" id="cnic" /> <br />
+        <label class="lab" for="social link">Social Link <span>*</span></label> <br />
+        <input class="inp"
+          type="url"
+          name="social link"
+          placeholder="Enter facebook links"
+          id="social link"
+          />
+          <div class="btn">
+            <a href="step1.html"><img src="IMAGES/back.png" alt="back logo" /></a>
+            <a href="step3.html"><img src="IMAGES/next.png" alt="next logo" /></a>
+          </div>
+      </fieldset>
+    </form>
+  </div>
+  </body>
+</html>

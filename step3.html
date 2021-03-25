@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div id="head">
+        <table>
+          <tr>
+            <th bgcolor="lightgreen">Step 1: Account</th>
+            <th bgcolor="lightgreen">Step 2: Personal Details</th>
+            <th bgcolor="lightblue">Step 3: Your Review</th>
+          </tr>
+        </table>
+      </div>
+
+      <form action="#">
+        <fieldset>
+          <legend>Your Review</legend>
+          <div class="req">* Required</div>
+          <p>How did you hear about us?</p>
+          <select name="option">
+            <option value="select your option" selected>
+              Select your option
+            </option>
+            <option value="friends">Friends</option>
+            <option value="facebook">Facebook</option>
+          </select>
+          <p>Would you visit again?</p>
+          <label for="yes">YES</label>
+          <input type="radio" name="visit" id="yes" />
+          <label for="no">NO</label>
+          <input type="radio" name="visit" id="no" />
+          <label for="maybe">MAYBE</label>
+          <input type="radio" name="visit" id="maybe" />
+          <br /> <br />
+          <label for="comments">Comments:</label> <br />
+          <textarea
+            name="comments"
+            id="comments"
+            placeholder="Enter your comments here...."
+            cols="40"
+            rows="4"
+          ></textarea>
+          <br /> <br />
+          <label for="documents">Documents <span>*</span></label> <br />
+          <input type="file" name="documents" id="documents">
+     <br /> <br />
+     <input type="checkbox" checked name="sign me up for email updates" id=""> sign me up for email updates
+     <div class="btn">
+       <a href="step2.html"><img src="IMAGES/back.png" alt="back logo" /></a>
+       <a href="get"><img src="IMAGES/submit.png" alt="back logo" /></a>
+     </div>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>

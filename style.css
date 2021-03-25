@@ -1,0 +1,57 @@
+.form {
+  display: block;
+  text-align: center;
+}
+.index img {
+  display: block;
+  width: 100px;
+  margin: auto;
+}
+.container {
+  width: 677px;
+  margin: 80px auto;
+}
+form {
+  width: 844px;
+  background-color: #f3f3f3;
+}
+
+.btn img {
+  margin-top: 25px;
+  width: 150px;
+}
+legend {
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.req {
+  color: red;
+}
+span {
+  color: red;
+}
+table {
+  border-radius: 25px;
+  margin: 40px auto;
+  background-color: rgb(228 228 228);
+  font-size: 28px;
+}
+#header {
+  width: 844px;
+  margin: auto;
+  box-shadow: 4px 4px 18px;
+}
+.lab {
+  font-size: 24px;
+}
+.inp {
+  margin-bottom: 20px;
+  width: 400px;
+  font-size: 18px;
+}
+#head th {
+  border-radius: 25px;
+  padding: 15px 20px;
+ text-shadow: 1px 1px 1px 1px;
+}
