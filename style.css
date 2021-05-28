@@ -53,5 +53,12 @@ table {
 #head th {
   border-radius: 25px;
   padding: 15px 20px;
- text-shadow: 1px 1px 1px 1px;
+  text-shadow: 1px 1px 1px 1px;
+}
+
+.tab {
+  margin: 12px 0px;
+}
+.inpu {
+  width: 7px;
 }
